@@ -30,8 +30,6 @@ msg = newClientSocket.recv(1024)
 
 print "Message received: " + msg
 print
-print "Word received after question mark: " + msg.split('?')[1]
-print
 print "---------- SENDING ----------"
 
 # send the reply
